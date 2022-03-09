@@ -1,0 +1,40 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+}
+.box{
+    position: relative;
+}
+.loginBox{
+    background: white;
+    border: solid 1px;
+    width: 300px;
+    height: 290px;
+    position: fixed;
+    top: 100px;
+    right: 15px;
+    display: none;
+}
+.formBox{
+    margin: 10px;
+}
+.registerBox{
+    background: white;
+    border: solid 1px;
+    width: 300px;
+    height: 370px;
+    position: fixed;
+    top: 100px;
+    right: 15px;
+    display: none;
+}
+#userName{
+      display: none;
+}
+h1{
+    margin-bottom: 30px;
+}
+button.close{
+    margin-right: 7px;
+    margin-top: 7px;
+}
